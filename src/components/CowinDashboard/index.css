@@ -1,0 +1,47 @@
+/* Write your CSS here */
+.container {
+  background-color: #1c1c2b;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+.logo-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+.logo-image {
+  height: 30px;
+  width: 30px;
+  margin-right: 10px;
+}
+.logo-style {
+  color: #2cc6c6;
+}
+.title-style {
+  color: #cbd5e1;
+}
+.failure-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.failure-image {
+  height: 250px;
+  width: 300px;
+}
+.failure-text {
+  color: #ffffff;
+}
+.card-container {
+  background-color: #6c757d;
+  padding: 10px;
+  margin: 10px;
+}
+.card-title-style {
+  color: #ffffff;
+}
